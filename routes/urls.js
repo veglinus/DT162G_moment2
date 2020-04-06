@@ -1,19 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
-const fs = require("fs");
-
-function getData() {
-    var data = fs.readFileSync("courses.json");
-    var jsondata = JSON.parse(data);
-    return jsondata;
-}
 
 
-/* GET everything listing. */
+
 /*
-router.get('/', function(req, res, next) {
-  res.send(getData());
+router.get('/consume', function(req, res, next) {
+  res.render('consume_courses', { title: 'Consume Courses' });
 });
 */
 
