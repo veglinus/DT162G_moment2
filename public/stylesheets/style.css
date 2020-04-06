@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+.deleteimg {
+  width: 28px;
+  height: 28px;
+}
